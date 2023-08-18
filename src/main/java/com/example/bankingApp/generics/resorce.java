@@ -1,2 +1,3 @@
-package com.example.bankingApp.generics;public class resorce {
+package com.example.bankingApp.generics;
+public class resorce {
 }

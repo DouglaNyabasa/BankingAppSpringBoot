@@ -1,16 +1,16 @@
 package com.example.bankingApp.model;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
-
 import javax.persistence.*;
 import java.util.List;
+
 /**
  * @author Douglas Nyabasa
  * created on 8/10/2023
  */
+
 @Data
 @SuperBuilder
 @AllArgsConstructor

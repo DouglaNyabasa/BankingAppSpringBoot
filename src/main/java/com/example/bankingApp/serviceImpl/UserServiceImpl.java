@@ -7,7 +7,6 @@ import com.example.bankingApp.dto.UserDto;
 
 import com.example.bankingApp.repository.RoleRepository;
 import com.example.bankingApp.repository.UserRepository;
-import com.example.bankingApp.service.AccountService;
 import com.example.bankingApp.service.UserService;
 import com.example.bankingApp.validator.ObjectsValidator;
 import org.springframework.stereotype.Service;
@@ -21,6 +20,7 @@ public class UserServiceImpl implements UserService {
     private final UserRepository repository;
     private final ObjectsValidator<UserDto> validator;
     private final RoleRepository roleRepository;
+
 
     public UserServiceImpl(UserRepository repository, ObjectsValidator<UserDto> validator,   RoleRepository roleRepository) {
         this.repository = repository;
@@ -39,12 +39,12 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public UserDto findById(Integer id) {
+    public UserDto findById(Long id) {
         return null;
     }
 
     @Override
-    public void delete(Integer id) {
+    public void delete(Long id) {
 
     }
 

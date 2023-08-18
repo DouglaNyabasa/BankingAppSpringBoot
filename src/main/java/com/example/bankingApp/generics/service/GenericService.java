@@ -8,8 +8,8 @@ public interface GenericService<T> {
 
     List<T> findAll();
 
-    T findById(Integer id);
+    T findById(Long id);
 
-    void delete(Integer id);
+    void delete(Long id);
 
 }
